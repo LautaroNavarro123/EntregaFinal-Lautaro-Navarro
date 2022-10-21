@@ -14,18 +14,23 @@
     background-color: #212529;
     border-color: #212529;
 }
-.NavbarH{
-    height: 15%;
-}
-
-.margentop{
-    margin-top: 7%;
-}
 
 .HomeTitulo{
     margin-top: 25%;
     font-size: 40px;
     font-family: system-ui;
+    animation-duration: 2s;
+    animation-name: Desaparecer;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Desaparecer{
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 .HomeText{
@@ -52,8 +57,4 @@
 
 .FooterList{
     list-style: none;
-}
-
-.GaleriaColor{
-    background-color: #212529;
 }
