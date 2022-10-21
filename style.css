@@ -1,5 +1,5 @@
 .NavbarMarca{
-    font-size: 20px;
+    font-size: 32px;
     margin-right: 20px;
     font-family: Gill Sans;
     color: white;
@@ -31,4 +31,26 @@
 .HomeText{
     font-size: 25px;
     font-family: system-ui;
+}
+
+.FooterColor{
+    background-color: #343a40;
+}
+
+.FooterMarca{
+    font-size: 32px;
+    margin-right: 20px;
+    font-family: Gill Sans;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.FooterCopyright{
+    margin-left: 20px;
+    color: white;
+}
+
+.MargenLogos{
+    margin-top: 1.5%;
 }
