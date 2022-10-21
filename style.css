@@ -58,3 +58,41 @@
 .FooterList{
     list-style: none;
 }
+.TiendaTitulo{
+    font-family: Gill Sans;
+    color: #343a40;
+    font-weight: 600;
+}
+.TiendaContainer{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 2%;
+}
+.TiendaFrontImg{
+
+}
+.TiendaBackImg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.TiendaBackImg:hover{
+    opacity: 1;
+}
+
+
+.TiendaOfertas{
+   justify-content: center;
+   background-color: #343a40;
+   color: white;
+   font-size: 100%;
+   font-family: Gill Sans;
+   font-weight: 600;
+   height: 400%;
+}
