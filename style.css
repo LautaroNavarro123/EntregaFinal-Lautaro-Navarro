@@ -46,11 +46,10 @@
     margin-top: 20px;
 }
 
-.FooterCopyright{
-    margin-left: 20px;
-    color: white;
+.MargenLogos{
+    margin: 1.5%;
 }
 
-.MargenLogos{
-    margin-top: 1.5%;
+.FooterList{
+    list-style: none;
 }
