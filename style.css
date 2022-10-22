@@ -114,6 +114,7 @@
     font-family: monospace;
     font-weight: 600;
     font-size: 60px;
+    width: 100%;
 }
 .TextoSuperpuesto{
     color: white;
@@ -121,6 +122,7 @@
     font-family: system-ui;
     font-weight: 300;
     font-size: 30px;
+    width: 100%;
 }
 .BotonFormulario{
     color: white;
@@ -131,9 +133,6 @@
 .FormularioContainer{
     width: 100%;
     padding: 15px;
-}
-.Formulario{
-    padding: 3px;
 }
 
 .FormularioInput{
