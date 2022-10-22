@@ -87,7 +87,6 @@
     opacity: 1;
 }
 
-
 .TiendaOfertas {
     justify-content: center;
     background-color: #343a40;
@@ -96,4 +95,52 @@
     font-family: Gill Sans;
     font-weight: 600;
     height: 400%;
+}
+
+.ImagenContacto{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212529;
+    background-size: cover;
+    background-position: center;
+}
+
+.TituloSuperpuesto{
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 60px;
+}
+.TextoSuperpuesto{
+    color: white;
+    text-align: center;
+    font-family: system-ui;
+    font-weight: 300;
+    font-size: 30px;
+}
+.BotonFormulario{
+    color: white;
+    background-color: #343a40;
+    border-color: white;
+    font-size: 20px;
+}
+.FormularioContainer{
+    width: 100%;
+    padding: 15px;
+}
+.Formulario{
+    padding: 3px;
+}
+
+.FormularioInput{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+}
+.FormularioTextArea{
+    resize: none;
 }
