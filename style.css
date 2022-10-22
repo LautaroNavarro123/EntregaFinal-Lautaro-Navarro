@@ -1,21 +1,21 @@
-.NavbarMarca{
+.NavbarMarca {
     font-size: 32px;
     margin-right: 20px;
     font-family: Gill Sans;
     color: white;
 }
 
-.NavbarButton{
+.NavbarButton {
     color: white;
     border-color: white;
 }
 
-.NavbarButton:hover{
+.NavbarButton:hover {
     background-color: #212529;
     border-color: #212529;
 }
 
-.HomeTitulo{
+.HomeTitulo {
     margin-top: 25%;
     font-size: 40px;
     font-family: system-ui;
@@ -24,25 +24,26 @@
     animation-iteration-count: infinite;
 }
 
-@keyframes Desaparecer{
+@keyframes Desaparecer {
     0% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
     }
 }
 
-.HomeText{
+.HomeText {
     font-size: 25px;
     font-family: system-ui;
 }
 
-.FooterColor{
+.FooterColor {
     background-color: #343a40;
 }
 
-.FooterMarca{
+.FooterMarca {
     font-size: 32px;
     margin-right: 20px;
     font-family: Gill Sans;
@@ -51,19 +52,21 @@
     margin-top: 20px;
 }
 
-.MargenLogos{
+.MargenLogos {
     margin: 1.5%;
 }
 
-.FooterList{
+.FooterList {
     list-style: none;
 }
-.TiendaTitulo{
+
+.TiendaTitulo {
     font-family: Gill Sans;
     color: #343a40;
     font-weight: 600;
 }
-.TiendaContainer{
+
+.TiendaContainer {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -71,10 +74,8 @@
     margin: 0;
     padding: 2%;
 }
-.TiendaFrontImg{
 
-}
-.TiendaBackImg{
+.TiendaBackImg {
     position: absolute;
     left: 0;
     top: 0;
@@ -82,17 +83,17 @@
     transition: all 0.7s ease;
 }
 
-.TiendaBackImg:hover{
+.TiendaBackImg:hover {
     opacity: 1;
 }
 
 
-.TiendaOfertas{
-   justify-content: center;
-   background-color: #343a40;
-   color: white;
-   font-size: 100%;
-   font-family: Gill Sans;
-   font-weight: 600;
-   height: 400%;
+.TiendaOfertas {
+    justify-content: center;
+    background-color: #343a40;
+    color: white;
+    font-size: 100%;
+    font-family: Gill Sans;
+    font-weight: 600;
+    height: 400%;
 }
