@@ -237,7 +237,7 @@
     align-items: center;
     justify-content: center;
     background-color: #212529;
-    background: linear-gradient(to bottom, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(./Assets/Img/Imagenfondoinfo.jpg);
+    background: linear-gradient(to bottom, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(/Assets/Img/Imagenfondoinfo.jpg);
     background-size: cover;
     background-position: center;
 }
