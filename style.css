@@ -97,7 +97,7 @@
     height: 400%;
 }
 
-.ImagenContacto{
+.ImagenContacto {
     width: 100%;
     height: 50vh;
     display: flex;
@@ -106,7 +106,7 @@
     background-color: #212529;
 }
 
-.TituloSuperpuesto{
+.TituloSuperpuesto {
     color: white;
     text-align: center;
     font-family: monospace;
@@ -114,7 +114,8 @@
     font-size: 40px;
     width: 100%;
 }
-.TextoSuperpuesto{
+
+.TextoSuperpuesto {
     color: white;
     text-align: center;
     font-family: system-ui;
@@ -122,22 +123,125 @@
     font-size: 25px;
     width: 100%;
 }
-.BotonFormulario{
+
+.BotonFormulario {
     color: white;
     background-color: #343a40;
     border-color: white;
     font-size: 20px;
 }
-.FormularioContainer{
+
+.FormularioContainer {
     width: 100%;
     padding: 15px;
 }
 
-.FormularioInput{
+.FormularioInput {
     font-size: 20px;
     width: 82%;
     padding: 10px;
 }
-.FormularioTextArea{
+
+.FormularioTextArea {
     resize: none;
+}
+
+.ContainerCard {
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+    perspective: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.CardPadre {
+    margin: 20px;
+    perspective: 1000px;
+}
+
+.CardPadre:hover .InfoCard {
+    transform: rotateY(180deg);
+}
+
+
+.InfoCard {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 600ms;
+}
+
+.CardFront {
+    background-size: cover;
+    background-position: center;
+}
+
+
+.CardFront,
+.CardBack {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    border-radius: 20px;
+}
+
+.CardBack {
+    transform: rotateY(180deg);
+    background: #343a40;
+}
+
+.BodyCardFront {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transform: translateZ(60px);
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+
+.BodyCardBack {
+    padding: 40px;
+    text-align: center;
+    transform: translateZ(60px);
+}
+
+.BodyCardBack p {
+    margin-top: 30px;
+    font-size: 18px;
+    color: white;
+}
+
+.ImagenInfo {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212529;
+    background: linear-gradient(to bottom, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(./Assets/Img/Imagenfondoinfo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.m-100{
+    margin-bottom: 100px;
 }
