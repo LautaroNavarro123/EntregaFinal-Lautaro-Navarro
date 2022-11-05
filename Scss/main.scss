@@ -1,0 +1,15 @@
+@import "./layout/header";
+@import "./views/home";
+@import "./views/tienda";
+@import "./views/contacto";
+@import "./views/informacion";
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./layout/forms";
+@import "./layout/footer";
+
+.m-100{
+    margin-bottom: 100px;
+}
+
+

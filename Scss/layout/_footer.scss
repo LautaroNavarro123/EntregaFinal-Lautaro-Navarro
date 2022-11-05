@@ -1,0 +1,22 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+.FooterColor {
+    background-color: map-get($Colores, $key:ColorPrimario);
+}
+
+.FooterMarca {
+    @include FontSize (32px);
+    font-family: map-get($Fuentes, $key:FuenteTitulo);
+    color: map-get($Colores, $key:ColorWhite);
+    margin: 20px 20px 0 20px;
+}
+
+footer ul {
+    list-style: none;
+
+    li {
+        margin: 1.5%;
+    }
+
+}

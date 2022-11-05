@@ -1,247 +1,265 @@
 .NavbarMarca {
-    font-size: 32px;
-    margin-right: 20px;
-    font-family: Gill Sans;
-    color: white;
+  font-size: 32px;
+  margin-right: 20px;
+  font-family: "Gill Sans";
+  color: white;
 }
 
 .NavbarButton {
-    color: white;
-    border-color: white;
+  color: white;
+  border-color: white;
 }
-
 .NavbarButton:hover {
-    background-color: #212529;
-    border-color: #212529;
+  background-color: #212529;
+  border-color: #212529;
 }
 
 .HomeTitulo {
-    margin-top: 8%;
-    font-size: 40px;
-    font-family: system-ui;
-    animation-duration: 2s;
-    animation-name: Desaparecer;
-    animation-iteration-count: infinite;
+  font-size: 40px;
+  margin-top: 8%;
+  font-family: "Gill Sans";
+  animation-duration: 2s;
+  animation-name: Desaparecer;
+  animation-iteration-count: infinite;
 }
 
 @keyframes Desaparecer {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-
 .HomeText {
-    font-size: 25px;
-    font-family: system-ui;
-}
-
-.FooterColor {
-    background-color: #343a40;
-}
-
-.FooterMarca {
-    font-size: 32px;
-    margin-right: 20px;
-    font-family: Gill Sans;
-    color: white;
-    margin-left: 20px;
-    margin-top: 20px;
-}
-
-.MargenLogos {
-    margin: 1.5%;
-}
-
-.FooterList {
-    list-style: none;
+  font-size: 25px;
+  font-family: system-ui;
 }
 
 .TiendaTitulo {
-    font-family: Gill Sans;
-    color: #343a40;
-    font-weight: 600;
+  font-family: "Gill Sans";
+  color: #343a40;
+  font-weight: 600;
 }
 
 .TiendaContainer {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0;
-    padding: 2%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 2%;
 }
 
 .TiendaBackImg {
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 0;
-    transition: all 0.7s ease;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: all 0.7s ease;
 }
-
 .TiendaBackImg:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .TiendaOfertas {
-    justify-content: center;
-    background-color: #343a40;
-    color: white;
-    font-size: 26px;
-    font-family: Gill Sans;
-    font-weight: 600;
-    height: 400%;
+  justify-content: center;
+  background-color: #343a40;
+  color: white;
+  font-size: 26px;
+  font-family: "Gill Sans";
+  font-weight: 600;
+  height: 400%;
 }
 
 .ImagenContacto {
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #212529;
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #212529;
 }
 
 .TituloSuperpuesto {
-    color: white;
-    text-align: center;
-    font-family: monospace;
-    font-weight: 600;
-    font-size: 40px;
-    width: 100%;
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 40px;
+  width: 100%;
 }
 
 .TextoSuperpuesto {
-    color: white;
-    text-align: center;
-    font-family: system-ui;
-    font-weight: 300;
-    font-size: 25px;
-    width: 100%;
+  color: white;
+  text-align: center;
+  font-family: system-ui;
+  font-weight: 300;
+  font-size: 26px;
+  width: 100%;
 }
 
-.BotonFormulario {
-    color: white;
-    background-color: #343a40;
-    border-color: white;
-    font-size: 20px;
+.ImagenContacto {
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #212529;
 }
 
-.FormularioContainer {
-    width: 100%;
-    padding: 15px;
+.TituloSuperpuesto {
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 40px;
+  width: 100%;
 }
 
-.FormularioInput {
-    font-size: 20px;
-    width: 82%;
-    padding: 10px;
-}
-
-.FormularioTextArea {
-    resize: none;
+.TextoSuperpuesto {
+  color: white;
+  text-align: center;
+  font-family: system-ui;
+  font-weight: 300;
+  font-size: 26px;
+  width: 100%;
 }
 
 .ContainerCard {
-    justify-content: center;
-    margin: auto;
-    margin-top: 100px;
-    perspective: 1000px;
-    display: flex;
-    flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-top: 100px;
+  perspective: 1000px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .CardPadre {
-    margin: 20px;
-    perspective: 1000px;
+  margin: 20px;
+  perspective: 1000px;
 }
-
 .CardPadre:hover .InfoCard {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
-
 
 .InfoCard {
-    width: 300px;
-    height: 400px;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: all 600ms;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 600ms;
 }
-
-.CardFront {
-    background-size: cover;
-    background-position: center;
-}
-
 
 .CardFront,
 .CardBack {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    backface-visibility: hidden;
-    transform-style: preserve-3d;
-    border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  border-radius: 20px;
+}
+
+.CardFront {
+  background-size: cover;
+  background-position: center;
 }
 
 .CardBack {
-    transform: rotateY(180deg);
-    background: #343a40;
+  transform: rotateY(180deg);
+  background: #343a40;
 }
 
 .BodyCardFront {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    padding: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    transform: translateZ(60px);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transform: translateZ(60px);
 }
 
 .bg {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.4);
-    border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
 }
 
 .BodyCardBack {
-    padding: 40px;
-    text-align: center;
-    transform: translateZ(60px);
+  padding: 40px;
+  text-align: center;
+  transform: translateZ(60px);
 }
-
 .BodyCardBack p {
-    margin-top: 30px;
-    font-size: 18px;
-    color: white;
+  margin-top: 30px;
+  font-size: 18px;
+  color: white;
 }
 
 .ImagenInfo {
-    width: 100%;
-    height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #212529;
-    background: linear-gradient(to bottom, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(../Assets/Img/Imagenfondoinfo.jpg);
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #212529;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Assets/Img/Imagenfondoinfo.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.m-100{
-    margin-bottom: 100px;
+.FormularioContainer {
+  width: 100%;
+  padding: 15px;
 }
+.FormularioContainer .FormularioInput {
+  font-size: 20px;
+  width: 82%;
+  padding: 10px;
+}
+.FormularioContainer .FormularioTextArea {
+  resize: none;
+}
+.FormularioContainer .BotonFormulario {
+  color: white;
+  background-color: #343a40;
+  border-color: white;
+  font-size: 20px;
+}
+.FormularioContainer .BotonFormulario:hover {
+  background-color: #212529;
+}
+
+.FooterColor {
+  background-color: #343a40;
+}
+
+.FooterMarca {
+  font-size: 32px;
+  font-family: "Gill Sans";
+  color: white;
+  margin: 20px 20px 0 20px;
+}
+
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  margin: 1.5%;
+}
+
+.m-100 {
+  margin-bottom: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */

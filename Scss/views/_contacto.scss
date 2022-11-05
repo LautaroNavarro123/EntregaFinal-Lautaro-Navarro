@@ -1,0 +1,29 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+.ImagenContacto {
+    @include Width (100%);
+    @include Height (55vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: map-get($Colores, $key:ColorSecundario);
+}
+
+.TituloSuperpuesto {
+    color: map-get($Colores, $key:ColorWhite);
+    text-align: center;
+    font-family: map-get($Fuentes, $key:FuenteContacto);
+    font-weight: 600;
+    @include FontSize (40px);
+    @include Width (100%);
+}
+
+.TextoSuperpuesto {
+    color: map-get($Colores, $key:ColorWhite);
+    text-align: center;
+    font-family: map-get($Fuentes, $key:FuenteText);
+    font-weight: 300;
+    @include FontSize (26px);
+    @include Width (100%);
+}

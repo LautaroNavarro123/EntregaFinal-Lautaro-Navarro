@@ -1,0 +1,39 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+.TiendaTitulo {
+    font-family: map-get($Fuentes, $key:FuenteTitulo);
+    color: map-get($Colores, $key:ColorPrimario);
+    font-weight: 600;
+}
+
+.TiendaContainer {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 2%;
+}
+
+.TiendaBackImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.7s ease;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.TiendaOfertas {
+    justify-content: center;
+    background-color: map-get($Colores, $key:ColorPrimario);
+    color: map-get($Colores, $key:ColorWhite);
+    @include FontSize (26px);
+    font-family: map-get($Fuentes, $key:FuenteTitulo);
+    font-weight: 600;
+    @include Height (400%);
+}

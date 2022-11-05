@@ -1,0 +1,29 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+
+.FormularioContainer {
+    @include Width (100%);
+    padding: 15px;
+
+    .FormularioInput {
+        @include FontSize (20px);
+        @include Width (82%);
+        padding: 10px;
+    }
+
+    .FormularioTextArea {
+        resize: none;
+    }
+
+    .BotonFormulario {
+        color: map-get($Colores, $key:ColorWhite);
+        background-color: map-get($Colores, $key:ColorPrimario);
+        border-color: map-get($Colores, $key:ColorWhite);
+        @include FontSize (20px);
+
+        &:hover {
+            background-color: map-get($Colores, $key:ColorSecundario);
+        }
+    }
+}

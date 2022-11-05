@@ -1,0 +1,26 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+.HomeTitulo {
+    @include FontSize (40px);
+    margin-top: 8%;
+    font-family: map-get($Fuentes, $key:FuenteTitulo);
+    animation-duration: 2s;
+    animation-name: Desaparecer;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Desaparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.HomeText {
+    @include FontSize (25px);
+    font-family: map-get($Fuentes, $key:FuenteText);
+}

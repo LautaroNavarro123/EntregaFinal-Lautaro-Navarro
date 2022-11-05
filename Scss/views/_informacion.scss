@@ -1,0 +1,97 @@
+@import "../utilities/variables";
+@import "./contacto";
+@import "../utilities/mixins";
+
+.ContainerCard {
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+    perspective: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.CardPadre {
+    margin: 20px;
+    perspective: 1000px;
+
+    &:hover .InfoCard {
+        transform: rotateY(180deg);
+    }
+}
+
+.InfoCard {
+    @include Width (300px);
+    @include Height (400px);
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 600ms;
+}
+
+.CardFront,
+.CardBack {
+    @include Width (100%);
+    @include Height (100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    border-radius: 20px;
+}
+
+.CardFront {
+    background-size: cover;
+    background-position: center;
+}
+
+.CardBack {
+    transform: rotateY(180deg);
+    background: map-get($Colores, $key:ColorPrimario);
+}
+
+.BodyCardFront {
+    @include Width (100%);
+    @include Height (100%);
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: map-get($Colores, $key:ColorWhite);
+    transform: translateZ(60px);
+}
+
+.bg {
+    @include Width (100%);
+    @include Height (100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+
+.BodyCardBack {
+    padding: 40px;
+    text-align: center;
+    transform: translateZ(60px);
+
+    p {
+        margin-top: 30px;
+        @include FontSize (18px);
+        color: map-get($Colores, $key:ColorWhite);
+    }
+}
+
+.ImagenInfo {
+    @include Width (100%);
+    @include Height (70vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: map-get($Colores, $key:ColorSecundario);
+    background: linear-gradient(to bottom, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(../Assets/Img/Imagenfondoinfo.jpg);
+    background-size: cover;
+    background-position: center;
+}

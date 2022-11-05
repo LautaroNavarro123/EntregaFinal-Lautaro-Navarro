@@ -1,0 +1,22 @@
+{
+  "name": "pre-entrega3-lautaro-navarro",
+  "version": "1.0.0",
+  "description": "pre-entrega-3",
+  "main": "index.js",
+  "scripts": {
+    "watch-css": "sass --watch Scss/main.scss Style/style.css" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LautaroNavarro123/Pre-Entrega2-Lautaro-Navarro.git"
+  },
+  "author": "Lautaro Navarro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LautaroNavarro123/Pre-Entrega2-Lautaro-Navarro/issues"
+  },
+  "homepage": "https://github.com/LautaroNavarro123/Pre-Entrega2-Lautaro-Navarro#readme",
+  "devDependencies": {
+    "sass": "^1.56.0"
+  }
+}

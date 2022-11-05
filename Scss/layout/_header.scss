@@ -1,0 +1,19 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+.NavbarMarca {
+    @include FontSize (32px);
+    margin-right: 20px;
+    font-family: map-get($Fuentes, $key: FuenteTitulo);
+    color: map-get($Colores, $key:ColorWhite);
+}
+
+.NavbarButton {
+    color: map-get($Colores, $key:ColorWhite);
+    border-color: map-get($Colores, $key:ColorWhite);
+
+    &:hover {
+        background-color: map-get($Colores, $key:ColorSecundario);
+        border-color: map-get($Colores, $key:ColorSecundario);
+    }
+}

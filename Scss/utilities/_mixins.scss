@@ -1,0 +1,11 @@
+@mixin FontSize ($FontSize){
+    font-size: $FontSize;
+}
+
+@mixin Width ($Width) {
+    width:$Width;
+}
+
+@mixin Height ($Height) {
+    height: $Height;
+}
